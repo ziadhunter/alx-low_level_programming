@@ -3,11 +3,10 @@
 /**
  * main - Entry point for the program.
  *
- * Description: print all alphabetletters
+ * Description: Print all lowercase and uppercase alphabet letters.
  *
- * Return: always 0 (success)
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	char i;
@@ -25,6 +24,3 @@ int main(void)
 
 	return (0);
 }
-~
-~
-~
