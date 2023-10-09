@@ -1,21 +1,20 @@
 #include <stdio.h>
 
-/*
- *main - Entry point for the program.
+/**
+ * main - Entry point for the program.
  *
- *description; this is a program that print the alphabet,a to z
+ * Description; print all alphabetletters
  *
- *Return: always (0) successe
+ * Return: always 0 (success)
  */
 
 int main(void)
 {
-	int a = 97;
-	int i;
+	char i = 'a';
 
-	for (i = a; i <= z; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar("%d", i);
+		putchar(i);
 	}
 	putchar("\n");
 
