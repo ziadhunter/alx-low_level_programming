@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Entry point.
+/**
+ * main - Entry point for the program.
  *
- * Description: Print the value of n status:
- *              greater than, is zero and is not less than 6.
+ * Description: print the value of n status:
+ * grates than ,is zero and is not less than 6.
  *
  * Return: 0 (Success)
  */
