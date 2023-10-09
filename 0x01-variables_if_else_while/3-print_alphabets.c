@@ -3,7 +3,7 @@
 /**
  * main - Entry point for the program.
  *
- * Description; print all alphabetletters
+ * Description: print all alphabetletters
  *
  * Return: always 0 (success)
  */
@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (j = 'A'; j <= 'Z'; i++)
+	for (j = 'A'; j <= 'Z'; j++)
 	{
 		putchar(j);
 	}
