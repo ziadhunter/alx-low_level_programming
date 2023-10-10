@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point for the program.
+ * print_alphabet - Print the lowercase alphabet from 'a' to 'z'.
  *
- * Description: Print the lowercase alphabet letters from 'a' to 'z'.
+ * Description: This function prints the alphabet in lowercase.
  *
- * Return: Always 0 (success)
+ * Return: void (no return value)
  */
 
 void print_alphabet(void)
