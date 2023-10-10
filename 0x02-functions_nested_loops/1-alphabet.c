@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entry value
+ * main - Entry point for the program.
  *
- * description: print the alphabet using _putchar fonction
+ * Description: Print the lowercase alphabet letters from 'a' to 'z'.
  *
- * return: always (0) success
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char "e";
+	char e;
 
-	for(e = "a"; e <= "z"; e++)
+	for (e = 'a'; e <= 'z'; e++)
 		_putchar(e);
 	_putchar('\n');
 
