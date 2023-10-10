@@ -20,12 +20,11 @@ int main(void)
 		{
 			putchar('0' + n);
 			putchar('0' + j);
-		}
-		if (n != 8 && j != 9)
-		{
-			putchar (',');
-			putchar (' ');
-		}
+			if (n != 8 && j != 9)
+			{
+				putchar (',');
+				putchar (' ');
+			}
 	}
 	putchar('\n');
 
